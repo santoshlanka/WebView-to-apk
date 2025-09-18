@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     String ShowOrHideWebViewInitialUse = "show";
     private WebView webview ;
     private ProgressBar spinner;
-    String myurl = "https://successtar.github.io"; //Change this  to your website hostname
+    String myurl = "https://playhls.pages.dev/"; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -167,5 +167,6 @@ public class MainActivity extends AppCompatActivity {
         webview.loadUrl(myurl);
     }
 }
+
 
 
